@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pudim</title>
+
+<!-- Fonte moderna -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background: linear-gradient(135deg, #f6d365, #fda085);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        background: white;
+        width: 90%;
+        max-width: 900px;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .image {
+        flex: 1 1 400px;
+        background: url('img/pudim.png') center/cover no-repeat;
+        min-height: 400px;
+    }
+
+    .content {
+        flex: 1 1 400px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+        color: #c96a00;
+        margin-bottom: 20px;
+    }
+
+    .content p {
+        font-size: 1.1rem;
+        color: #555;
+        line-height: 1.7;
+    }
+
+    @media (max-width: 768px) {
+        .card {
+            flex-direction: column;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="image"></div>
+
+    <div class="content">
+        <h1>Pudim Gourmet</h1>
+        <p>
+            Originada em Portugal, a sobremesa foi criada por um abade português que nunca revelava a receita que fazia muito sucesso em sua região. Embora muitos confeiteiros tentassem imitar o preparo, eles nunca conseguiam. Após a morte do abade, sua receita foi revelada. Seus ingredientes eram: açúcar; gemas; água e toucinho de porco. Esses ingredientes deram origem ao Pudim Abade de Priscos que foi um sucesso em Portugal.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
+<footer>
+    © 2026 Desenvolvido por Felippe | Projeto Página Pudim 
+</footer>
