@@ -1,0 +1,8 @@
+Lembre-se de trocar o usuário e senha do banco de dados
+Instalar as dependências do projeto:
+	Framework Express: npm install express
+	SGBD MySQL Workbench: npm install mysql2
+	Linha única: npm install express mysql2
+	Inicializar o projeto: node server.js
+Instalar o nodemon: npm install -g nodemon
+Executar: npx nodemon server.js
